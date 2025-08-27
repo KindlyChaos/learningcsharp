@@ -1,6 +1,14 @@
-namespace PrintRainMessage
-  internal class Program
-    static void Main{string[] args}
-      Console.WriteLine{"Hello, World"};
-      Console.WriteLine{"Chinese Democracy is done and it's November"};
-      Console.WriteLine{"Is it raining?"};
+using System;
+
+	namespace PrintRainMessage
+	{
+		internal class Program
+		{
+			static void Main(string[] args)
+			{
+				Console.WriteLine("Hello World");
+				Console.WriteLine("Chinese Democracy is done and it's November");
+				Console.WriteLine("Is it raining?");
+			}
+		}
+	}
